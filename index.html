@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ruftana hotel - Menu</title>
+    <link rel="stylesheet" href="styles.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">Ruftana-hotel</div>
+        <ul class="nav-links">
+            <li><a href="#home" class="active">Home</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+    </nav>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h1>Welcome to Ruftana hotel</h1>
+                <p>Experience the finest culinary delights</p>
+                <a href="#menu" class="cta-btn">View Menu</a>
+            </div>
+        </section>
+
+        <section id="menu" class="menu">
+            <div class="section-header">
+                <h2>Our Menu</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="menu-categories">
+                <button class="category-btn active" data-category="all">All</button>
+                <button class="category-btn" data-category="starters">Starters</button>
+                <button class="category-btn" data-category="main">Main Course</button>
+                <button class="category-btn" data-category="desserts">Desserts</button>
+                <button class="category-btn" data-category="drinks">Drinks</button>
+            </div>
+            <div class="menu-table-container">
+                <table class="menu-table">
+                    <thead>
+                        <tr>
+                            <th>Item</th>
+                            <th>Description</th>
+                            <th>Price</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- Starters -->
+                        <tr class="menu-item" data-category="starters">
+                            <td>
+                                <div class="menu-item-header">
+                                    <h3>burger</h3>
+                                   <img src="Delicious burger with fresh ingredients _ AI-generated image.jfif" alt="">
+                                </div>
+                            </td>
+                            <td>Toasted bread with fresh tomatoes, garlic, and basil</td>
+                            <td class="price">$8.99</td>
+                        </tr>
+                        <tr class="menu-item" data-category="starters">
+                            <td>
+                                <div class="menu-item-header">
+                                    <h3>pizza</h3>
+                                    <img src="Pepperoni pizza on a white background, top view, for menu royalty free stock photo.jfif" alt="">
+                                </div>
+                            </td>
+                            <td>club sanduch</td>
+                            <td class="price">$12.99</td>
+                        </tr>
+                        <td>
+                            <div class="menu-item-header">
+                                <h3>beef burgar
+                                    
+                                </h3>
+                                <img src="Delicious burger with fresh ingredients _ AI-generated image.jfif" alt="">
+                            </div>
+                        </td>
+                        <td>borito</td>
+                        <td class="price">$12.99</td>
+                    </tr>
+
+                        <!-- Main Course -->
+                        <tr class="menu-item" data-category="main">
+                            <td>
+                                <div class="menu-item-header">
+                                    <h3>fish</h3>
+                                   
+                                </div>
+                            </td>
+                            <td>Fresh salmon with seasonal vegetables</td>
+                            <td class="price">$24.99</td>
+                        </tr>
+                        <tr class="menu-item" data-category="main">
+                            <td>
+                                <div class="menu-item-header">
+                                    <h3>Beef sanduch</h3>
+                                    
+                                </div>
+                            </td>
+                            <td>mango juice</td>
+                            <td class="price">$29.99</td>
+                        </tr>
+
+                        <!-- Desserts -->
+                        <tr class="menu-item" data-category="desserts">
+                            <td>
+                                <div class="menu-item-header">
+                                    <h3>Tiramisu</h3>
+                                  
+                                </div>
+                            </td>
+                            <td>Classic Italian dessert with coffee and mascarpone</td>
+                            <td class="price">$7.99</td>
+                        </tr>
+                        <tr class="menu-item" data-category="desserts">
+                            <td>
+                                <div class="menu-item-header">
+                                    <h3>Crème Brûlée</h3>
+                                    
+                                </div>
+                            </td>
+                            <td>Vanilla custard with caramelized sugar</td>
+                            <td class="price">$6.99</td>
+                        </tr>
+
+                        <!-- Drinks -->
+                        <tr class="menu-item" data-category="drinks">
+                            <td>
+                                <div class="menu-item-header">
+                                    <h3>Signature Cocktail</h3>
+                                  
+                                </div>
+                            </td>
+                            <td>House special blend of premium spirits</td>
+                            <td class="price">$12.99</td>
+                        </tr>
+                        <tr class="menu-item" data-category="drinks">
+                            <td>
+                                <div class="menu-item-header">
+                                    <h3>Wine Selection</h3>
+                                    
+                                </div>
+                            </td>
+                            <td>Curated selection of fine wines</td>
+                            <td class="price">$9.99/glass</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <div class="section-header">
+                <h2>About Us</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Welcome to ruftana, where culinary excellence meets exceptional service. Our restaurant has been serving the finest cuisine since 1990, offering a perfect blend of traditional and contemporary dishes.</p>
+                    <p>Our experienced chefs use only the freshest ingredients to create memorable dining experiences for our valued guests.</p>
+                </div>
+                <div class="about-features">
+                    <div class="feature">
+                        <i class="fas fa-utensils"></i>
+                        <h3>Fresh Ingredients</h3>
+                        <p>Locally sourced, premium quality</p>
+                    </div>
+                    <div class="feature">
+                        <i class="fas fa-clock"></i>
+                        <h3>Open Daily</h3>
+                        <p>11:00 AM - 10:00 PM</p>
+                    </div>
+                    <div class="feature">
+                        <i class="fas fa-star"></i>
+                        <h3>5-Star Service</h3>
+                        <p>Exceptional dining experience</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <div class="section-header">
+                <h2>Contact Us</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-card">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h3>Location</h3>
+                            <p>AFar, Country</p>
+                        </div>
+                    </div>
+                    <div class="contact-card">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h3>Phone</h3>
+                            <p>+251 09-12-23-45-67</p>
+                        </div>
+                    </div>
+                    <div class="contact-card">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h3>Email</h3>
+                            <p>Ruftana@finedining.com</p>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="tel" placeholder="Phone Number" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="date" required>
+                    </div>
+                    <div class="form-group">
+                        <select required>
+                            <option value="">Select Time</option>
+                            <option value="11:00">11:00 AM</option>
+                            <option value="12:00">12:00 PM</option>
+                            <option value="13:00">1:00 PM</option>
+                            <option value="14:00">2:00 PM</option>
+                            <option value="19:00">7:00 PM</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Special Requests" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">Make Reservation</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-info">
+                <h3>Ruftana-hotel</h3>
+                <p>Experience the art of fine dining</p>
+            </div>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Ruftana Hotel. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
